@@ -1,0 +1,33 @@
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\bin\Release\Tester.exe.config
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\bin\Release\Tester.exe.manifest
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\bin\Release\Tester.application
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\bin\Release\Tester.exe
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\bin\Release\Tester.pdb
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\obj\Release\MainWindow.baml
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\obj\Release\MainWindow.g.cs
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\obj\Release\App.g.cs
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\obj\Release\Tester_MarkupCompile.cache
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\obj\Release\Tester.g.resources
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\obj\Release\Tester.Properties.Resources.resources
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\obj\Release\Tester słuchu.csproj.GenerateResource.Cache
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\obj\Release\Tester.exe.manifest
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\obj\Release\Tester.application
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\obj\Release\Tester.exe
+C:\Users\PTRWND\documents\visual studio 2013\Projects\Tester\Tester\obj\Release\Tester.pdb
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\bin\Release\Tester.exe.config
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\obj\Release\Tester.exe
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\obj\Release\Tester.pdb
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\bin\Release\Tester.exe.manifest
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\bin\Release\Tester.application
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\bin\Release\Tester.exe
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\bin\Release\Tester.pdb
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\obj\Release\MainWindow.baml
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\obj\Release\MainWindow.g.cs
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\obj\Release\App.g.cs
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\obj\Release\Tester_MarkupCompile.cache
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\obj\Release\Tester.g.resources
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\obj\Release\Tester.Properties.Resources.resources
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\obj\Release\Tester słuchu.csproj.GenerateResource.Cache
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\obj\Release\Tester.exe.manifest
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\obj\Release\Tester.application
+C:\Users\PTRWND\Documents\Visual Studio 2013\Projects\Tester słuchu\Tester\obj\Release\Tester słuchu.csprojResolveAssemblyReference.cache
