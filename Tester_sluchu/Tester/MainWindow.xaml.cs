@@ -22,8 +22,7 @@ namespace Tester
     /// </summary>
     public partial class MainWindow : Window
     {
-        HearingTest sound = new HearingTest();
-        Data data = new Data();
+        HearingTest test = new HearingTest();
         Timer time = new Timer(20000);
         bool ready = true;
         string displayMemory = string.Empty;
@@ -36,7 +35,7 @@ namespace Tester
             InitializeComponent();
             WriteLine("Wybierz ilość cykli i kliknij Start");
             Cycles();
-            sound.LoadFile();
+            test.LoadFile();
         }
 
         private void Button_Start_Stop(object sender, RoutedEventArgs e)
@@ -47,7 +46,7 @@ namespace Tester
 
                 if (ready == true)
                 {
-                    sound.Play();
+                    test.Play();
                     cycleNumber++;
                     WriteLine("Cykl nr: "+ cycleNumber +" w trakcie...");
                     time.Elapsed += time_Elapsed;
@@ -57,7 +56,7 @@ namespace Tester
                 }
                 else
                 {
-                    sound.Stop();
+                    test.Stop();
                     time.Stop();
                     time.Elapsed -= time_Elapsed;
                     if (cycleCount > 0)
@@ -68,7 +67,7 @@ namespace Tester
 
                     if (cycleCount <= 0)
                     {
-                        WriteLine(sound.ShowResult());
+                        WriteLine(test.ShowResult());
                         cycleCount = 2 * int.Parse(cycleQuantity.SelectedValue.ToString());
                         cycleNumber = 0;
                     }
@@ -78,11 +77,12 @@ namespace Tester
 
         private void time_Elapsed(object sender, ElapsedEventArgs e)
         {
+            test.Stop();
             time.Stop();
             time.Elapsed -= time_Elapsed;
             ready = true;
             cycleNumber = 0;
-            data.EraseData();
+            test.TimeOut();
             cycleCount = startingPosition;
             MessageBox.Show("Brak reakcji użytkownika - test zakończył się.\nAby rozpocząć od nowa wciśnij start");
         }

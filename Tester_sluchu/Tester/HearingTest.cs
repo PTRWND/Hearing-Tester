@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Media;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
 using Tester;
+using System.Diagnostics;
 
 namespace Tester
 {
@@ -17,6 +11,7 @@ namespace Tester
         int start, stop;
         SoundPlayer sound = new SoundPlayer(Tester.Properties.Resources.sweep_22000Hz_2000Hz_20s);
         Data data = new Data();
+        Stopwatch timeValue = new Stopwatch();
 
         public void LoadFile()
         {
@@ -25,15 +20,22 @@ namespace Tester
 
         public void Play()
         {
+            timeValue.Reset();
             sound.Play();
-            start = Environment.TickCount & Int32.MaxValue;
+            timeValue.Start();
         }
 
         public void Stop()
         {                       
             sound.Stop();
-            stop = Environment.TickCount & Int32.MaxValue;
-            data.Save(stop - start);
+            timeValue.Stop();
+            data.Save(timeValue.ElapsedMilliseconds);
+            timeValue.Reset();
+        }
+
+        public void TimeOut()
+        {
+            data.EraseData();
         }
 
         public string ShowResult()
