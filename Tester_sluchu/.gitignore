@@ -1,2 +1,5 @@
 Tester/desktop.ini
 *.cache
+Tester/bin/
+Tester/obj/
+*.suo
