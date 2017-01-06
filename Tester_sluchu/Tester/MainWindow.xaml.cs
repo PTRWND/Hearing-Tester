@@ -84,15 +84,21 @@ namespace Tester
             cycleNumber = 0;
             test.TimeOut();
             cycleCount = startingPosition;
+            WriteLine("Brak reakcji użytkownika - test zakończył się.\nAby rozpocząć od nowa wciśnij start");
             MessageBox.Show("Brak reakcji użytkownika - test zakończył się.\nAby rozpocząć od nowa wciśnij start");
         }
 
         public void WriteLine(string text)
         {
             displayMemory += text;
+            Dispatcher.Invoke(DisplayUpdate);
+            displayMemory += Environment.NewLine;
+        }
+
+        public void DisplayUpdate()
+        {
             display.Content = displayMemory;
             display.ScrollToEnd();
-            displayMemory += Environment.NewLine;
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
